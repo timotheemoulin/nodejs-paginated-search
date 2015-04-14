@@ -1,0 +1,36 @@
+{
+  "name": "paginated-search",
+  "version": "0.0.1",
+  "description": "Paginated serach for Node.js (MEAN.JS).",
+  "keywords": [
+    "express",
+    "meanjs",
+    "search",
+    "pagination"
+  ],
+  "author": {
+    "name": "Timothee Moulin",
+    "email": "hello@timothee-moulin.me",
+    "url": "http://timothee-moulin.me/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/timotheemoulin/nodejs-paginated-search.git"
+  },
+  "bugs": {
+    "url": "http://github.com/timotheemoulin/nodejs-paginated-search/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./index.hs",
+  "dependencies": {
+    "mongoose": "3.8.24"
+  },
+  "engines": {
+    "node": ">= 0.12.0"
+  }
+}
