@@ -32,4 +32,4 @@ User.find(filters).sort('name').paginatedSearch(req).exec(function (err, users) 
 
 [The MIT License](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2015 Timothée Moulin <[http://timothee-moulin.me/](http://timothee-moulin.me/)>
+Copyright (c) 2015 Timothée Moulin [http://timothee-moulin.me/](http://timothee-moulin.me/)
