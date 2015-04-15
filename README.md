@@ -1,7 +1,13 @@
 # Paginated Search
 
 ## Installation
+Install the plugin from npmjs repository.
+```$ npm install paginated-search```
+
+If the npmjs repository should not respond, you can install the plugin from Github.
 ```$ npm install git@github.com:timotheemoulin/nodejs-paginated-search.git```
+
+Use the ```--save``` option to add the plugin to your *package.json* file.
 
 ## Usage
 First, configure your filter values.
