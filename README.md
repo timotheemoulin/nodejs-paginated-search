@@ -44,4 +44,4 @@ Copyright (c) 2015 Timothée Moulin <[http://timothee-moulin.me/](http://timothe
 If you would like to improve this plugin, make your changes and send me a pull request.
 
 ## Release History
-* 0.0.1 Initial Release
+* 0.0.2 Initial Release
