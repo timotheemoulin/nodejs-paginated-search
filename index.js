@@ -51,8 +51,8 @@ exports.getFilters = function (filters) {
             var condition = params.hasOwnProperty('condition') ? params.condition : true;
 
             if (source) {
-                var property = typeof params === 'object' ? params.value : params;
-                var value = source[property];
+                var key = typeof params === 'object' ? params.value : params;
+                var value = source[key];
             } else {
                 var value = typeof params === 'object' ? params.value : params;
             }

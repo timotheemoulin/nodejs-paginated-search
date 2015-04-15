@@ -5,6 +5,7 @@
 
 ## Usage
 First, configure your filter values.
+
 ```js
 // add filter from query
 var filters = PaginatedSearch.getFilters({
@@ -15,7 +16,9 @@ var filters = PaginatedSearch.getFilters({
     category: '123'
 };
 ```
-Then, add your filter to your Mongoose query and add ```.paginatedSearch(req)```
+
+Then, add your filter to your Mongoose query and add ```.paginatedSearch(req)``` after querying your model.
+
 ```js
 User.find(filters).sort('name').paginatedSearch(req).exec(function (err, users) {
     if (err) {
@@ -28,8 +31,17 @@ User.find(filters).sort('name').paginatedSearch(req).exec(function (err, users) 
 });
 ```
 
-## License
+## Tests
+Test are automated. Just launch the ```npm test``` command to run all the tests.
+If you would like to add your own test, you can edit the *test/index.js* file.
 
+## License
 [The MIT License](http://opensource.org/licenses/MIT)
 
 Copyright (c) 2015 Timothée Moulin <[http://timothee-moulin.me/](http://timothee-moulin.me/)>
+
+## Contribution
+If you would like to improve this plugin, make your changes and send me a pull request.
+
+## Release History
+* 0.0.1 Initial Release
