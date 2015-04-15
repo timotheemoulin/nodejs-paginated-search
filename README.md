@@ -38,10 +38,10 @@ If you would like to add your own test, you can edit the *test/index.js* file.
 ## License
 [The MIT License](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2015 Timothée Moulin <[http://timothee-moulin.me/](http://timothee-moulin.me/)>
-
 ## Contribution
 If you would like to improve this plugin, make your changes and send me a pull request.
 
 ## Release History
 * 0.0.2 Initial Release
+=======
+Copyright (c) 2015 Timothée Moulin [http://timothee-moulin.me/](http://timothee-moulin.me/)
