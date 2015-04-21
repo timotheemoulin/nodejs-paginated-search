@@ -44,7 +44,7 @@ Test are automated. Just launch the ```npm test``` command to run all the tests.
 If you would like to add your own test, you can edit the *test/index.js* file.
 
 ## License
-[The MIT License](http://opensource.org/licenses/MIT)
+[The MIT License](LICENSE-MIT)
 Copyright (c) 2015 Timothée Moulin [http://timothee-moulin.me/](http://timothee-moulin.me/)
 
 ## Contribution
