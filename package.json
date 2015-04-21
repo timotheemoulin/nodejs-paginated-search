@@ -35,5 +35,12 @@
   },
   "scripts": {
     "test": "make test"
-  }
+  },
+  "readme": "# Paginated Search\n\n## Installation\nInstall the plugin from npmjs repository.\n```$ npm install paginated-search```\n\nIf the npmjs repository should not respond, you can install the plugin from Github.\n```$ npm install git@github.com:timotheemoulin/nodejs-paginated-search.git```\n\nUse the ```--save``` option to add the plugin to your *package.json* file.\n\n## Usage\nFirst, configure your filter values.\n\n```js\n// add filter from query\nvar filters = PaginatedSearch.getFilters({\n    name: {\n        op: 'like',\n        value: 'John'\n    },\n    category: '123'\n};\n```\n\nThen, add your filter to your Mongoose query and add ```.paginatedSearch(req)``` after querying your model.\n\n```js\nUser.find(filters).sort('name').paginatedSearch(req).exec(function (err, users) {\n    if (err) {\n        return res.status(400).send({\n            message: errorHandler.getErrorMessage(err)\n        });\n    } else {\n        res.jsonp(users);\n    }\n});\n```\n\n## Tests\nTest are automated. Just launch the ```npm test``` command to run all the tests.\nIf you would like to add your own test, you can edit the *test/index.js* file.\n\n## License\n[The MIT License](http://opensource.org/licenses/MIT)\n\n## Contribution\nIf you would like to improve this plugin, make your changes and send me a pull request.\n\n## Release History\n* 0.0.3 Initial Release\n=======\nCopyright (c) 2015 Timothée Moulin [http://timothee-moulin.me/](http://timothee-moulin.me/)",
+  "readmeFilename": "README.md",
+  "gitHead": "8d8be2759307b1411acd84ffa37eb4e7868b69c2",
+  "homepage": "https://github.com/timotheemoulin/nodejs-paginated-search",
+  "_id": "paginated-search@0.0.3",
+  "_shasum": "23d73abeb374e7973c2eff33fc5604d617eb44f3",
+  "_from": "paginated-search@>=0.0.2 <0.1.0"
 }
