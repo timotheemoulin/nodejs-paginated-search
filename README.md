@@ -49,8 +49,9 @@ If you would like to improve this plugin, make your changes and send me a pull r
 
 ## Release History
 
-* 0.0.3 Add license and some other stuff
-* 0.0.2 Add NPM Package info
-* 0.0.1 Initial Release
-=======
+- 0.0.3 Add license and some other stuff
+- 0.0.2 Add NPM Package info
+- 0.0.1 Initial Release
+
+## Copyright
 Copyright (c) 2015 Timothée Moulin [http://timothee-moulin.me/](http://timothee-moulin.me/)
