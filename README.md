@@ -48,6 +48,9 @@ If you would like to add your own test, you can edit the *test/index.js* file.
 If you would like to improve this plugin, make your changes and send me a pull request.
 
 ## Release History
-* 0.0.3 Initial Release
+
+* 0.0.3 Add license and some other stuff
+* 0.0.2 Add NPM Package info
+* 0.0.1 Initial Release
 =======
 Copyright (c) 2015 Timothée Moulin [http://timothee-moulin.me/](http://timothee-moulin.me/)
