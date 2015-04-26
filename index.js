@@ -3,8 +3,7 @@
  */
 
 var mongoose = require('mongoose'),
-    Query = mongoose.Query,
-    MongoosePromise = mongoose.Promise;
+    Query = mongoose.Query;
 
 var computedFilters = {};
 

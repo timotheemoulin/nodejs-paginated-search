@@ -1,6 +1,6 @@
 {
   "name": "paginated-search",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Paginated serach for Node.js (MEAN.JS).",
   "keywords": [
     "express",
@@ -27,9 +27,6 @@
     }
   ],
   "main": "./index.hs",
-  "dependencies": {
-    "mongoose": "3.8.24"
-  },
   "engines": {
     "node": ">= 0.12.0"
   },
